@@ -27,7 +27,11 @@ SECRET_KEY = 'django-insecure-367)z8*t0^eyml4xbclj6b@_jf66!+-9ieo4!e7%d8))vn7-id
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'voizer-ai-assignment-production.up.railway.app',
+    '127.0.0.1',  # for local development
+]
+
 
 
 # Application definition
